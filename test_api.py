@@ -1,5 +1,8 @@
 import openai
 
+
+openai.api_key = "API_KEY"
+
 try:
     models = openai.Model.list()
     print("Modele:")
